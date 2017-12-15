@@ -1,4 +1,4 @@
-# core-ddos-academic
+# core-ddos
 
 # Colaboradores: 
     Professor Dr. Arthur Callado/ Alunos, Heli Amaral e Iranildo Fidelis 
