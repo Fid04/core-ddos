@@ -10,7 +10,7 @@
     Tem como finalidade, avaliar técnicas de DOS para ataque de negação de serviço distribuído (DDOS) usando 
     CORE emulador de redes. 
     
-    ![alt text](topo-vf.png)
+![alt text](https://raw.githubusercontent.com/Fid04/core-ddos/master/topo-vf.png)
 
 # Objetivo
     Comparar e determinar qual (is) das técnicas seguintes é mais eficiente para ataque de negação de 
