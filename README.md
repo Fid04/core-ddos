@@ -9,6 +9,8 @@
     Desempenho de Redes de Computadores, do Curso Superior Tecnólogico de Redes de Computadores (UFC/ Quixadá). 
     Tem como finalidade, avaliar técnicas de DOS para ataque de negação de serviço distribuído (DDOS) usando 
     CORE emulador de redes. 
+    
+    ![alt text](topo-vf.png)
 
 # Objetivo
     Comparar e determinar qual (is) das técnicas seguintes é mais eficiente para ataque de negação de 
