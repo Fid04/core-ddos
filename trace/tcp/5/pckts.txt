@@ -1,0 +1,5 @@
+8316141 pkg capturados
+8316433 pkg recebidos
+0      pkg drop interface
+0      pkg drop kernel
+3,30 mbps

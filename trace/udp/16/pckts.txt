@@ -1,0 +1,5 @@
+8697501 pkg capturados
+8697571 pkg recebidos
+1099      pkg drop interface
+0      pkg drop kernel
+

@@ -1,0 +1,59 @@
+                                                                                                                                                                                                                                 Apache Server Status for localhost (via 127.0.0.1)
+
+   Server Version: Apache/2.4.25 (Ubuntu)
+   Server MPM: event
+   Server Built: 2017-09-18T15:08:28
+     ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+   Current Time: Monday, 11-Dec-2017 17:45:00 -03
+   Restart Time: Monday, 11-Dec-2017 14:42:40 -03
+   Parent Server Config. Generation: 1
+   Parent Server MPM Generation: 0
+   Server uptime: 3 hours 2 minutes 19 seconds
+   Server load: 0.86 0.77 0.72
+   Total accesses: 7 - Total Traffic: 22 kB
+   CPU Usage: u1.68 s2.11 cu0 cs0 - .0346% CPU load
+   .00064 requests/sec - 2 B/second - 3218 B/request
+   1 requests currently being processed, 49 idle workers
+
+   Slot  PID  Stopping   Connections    Threads      Async connections
+                       total accepting busy idle writing keep-alive closing
+   0    21505 no       0     yes       1    24   0       0          0
+   1    21507 no       0     yes       0    25   0       0          0
+   Sum  2     0        0               1    49   0       0          0
+
+____W_____________________________________________..............
+................................................................
+......................
+
+   Scoreboard Key:
+   "_" Waiting for Connection, "S" Starting up, "R" Reading Request,
+   "W" Sending Reply, "K" Keepalive (read), "D" DNS Lookup,
+   "C" Closing connection, "L" Logging, "G" Gracefully finishing,
+   "I" Idle cleanup of worker, "." Open slot with no current process
+
+   Srv  PID   Acc  M CPU   SS   Req Conn Child Slot  Client   Protocol    VHost               Request
+   0-0 21505 0/1/1 _ 0.00 10934 1   0.0  0.00  0.00 127.0.0.1 http/1.1 127.0.1.1:80 GET /server-status HTTP/1.0
+   0-0 21505 0/1/1 _ 0.02 10883 1   0.0  0.00  0.00 127.0.0.1 http/1.1 127.0.1.1:80 GET /server-status HTTP/1.0
+   0-0 21505 0/1/1 _ 0.03 10871 1   0.0  0.00  0.00 127.0.0.1 http/1.1 127.0.1.1:80 GET /server-status HTTP/1.0
+   0-0 21505 0/1/1 _ 1.96 159   0   0.0  0.01  0.01 127.0.0.1 http/1.1 127.0.1.1:80 GET /server-status HTTP/1.0
+   0-0 21505 0/0/0 W 0.00 0     0   0.0  0.00  0.00 127.0.0.1 http/1.1 127.0.1.1:80 GET /server-status HTTP/1.0
+   1-0 21507 0/1/1 _ 1.83 469   1   0.0  0.00  0.00 127.0.0.1 http/1.1 127.0.1.1:80 GET /server-status HTTP/1.0
+   1-0 21507 0/1/1 _ 0.01 10890 1   0.0  0.00  0.00 127.0.0.1 http/1.1 127.0.1.1:80 GET /server-status HTTP/1.0
+   1-0 21507 0/1/1 _ 0.83 9040  0   0.0  0.00  0.00 127.0.0.1 http/1.1 127.0.1.1:80 GET /server-status HTTP/1.0
+     ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+    Srv  Child Server number - generation
+    PID  OS process ID
+    Acc  Number of accesses this connection / this child / this slot
+     M   Mode of operation
+    CPU  CPU usage, number of seconds
+    SS   Seconds since beginning of most recent request
+    Req  Milliseconds required to process most recent request
+   Conn  Kilobytes transferred this connection
+   Child Megabytes transferred this child
+   Slot  Total megabytes transferred this slot
+     ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+    Apache/2.4.25 (Ubuntu) Server at localhost Port 80

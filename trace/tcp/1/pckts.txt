@@ -1,0 +1,5 @@
+496573 pkg capturados
+497290 pkg recebidos
+0      pkg drop interface
+0      pkg drop kernel
+2,84 Mbps

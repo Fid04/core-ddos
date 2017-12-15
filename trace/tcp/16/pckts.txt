@@ -1,0 +1,4 @@
+10861955 pkg capturados
+10862560 pkg recebidos
+854      pkg drop interface
+0      pkg drop
