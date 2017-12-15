@@ -1,15 +1,15 @@
-# core-ddos
 
 # Colaboradores: 
-    Professor Dr. Arthur Callado/ Alunos, Heli Amaral e Iranildo Fidelis 
+    Professor Dr. Arthur Callado¹/ Alunos, Heli Amaral² e Iranildo Fidelis³
+    ¹
+    ² 
+    ³ fidelis.lilia@gmail.com
 
-# Projeto
+# core-ddos
     Projeto de disciplina, como parte dos requisitos para obtenção de nota na disciplina de Análise de 
     Desempenho de Redes de Computadores, do Curso Superior Tecnólogico de Redes de Computadores (UFC/ Quixadá). 
     Tem como finalidade, avaliar técnicas de DOS para ataque de negação de serviço distribuído (DDOS) usando 
     CORE emulador de redes. 
-    
-
 
 # Objetivo
     Comparar e determinar qual (is) das técnicas seguintes é mais eficiente para ataque de negação de 
@@ -28,16 +28,19 @@
     Ataque que visa a camada de aplicação, consiste de um conjunto de solicitações HTTP GET ou POST 
     enviadas para um servidor alvo (pedidos são legítimos e numerosos)
 
-# MÉTRICAS
+# Métricas
 
     → Tempo médio até a falha (segundos)
-    Tempo necessário para ocasionar indisponibilidade do serviço
+        Tempo necessário para ocasionar indisponibilidade do serviço
                    
     → Throughput (Mbps)              
-    Volume médio de tráfego processado em função do tempo de ataque
-    
-    
-# FATORES E NÍVEIS
+        Volume médio de tráfego processado em função do tempo de ataque
+        
+    → Carga de trabalho (%)
+        Utilização de recursos do servidor e do serviço Apache2 como memória, cpu, swap, disco, etc 
+        em função do tempo de ataque 
+   
+# Fatores e níveis
 
     → Técnicas de ataque          
       TCP SYN flood
@@ -69,5 +72,6 @@
                 |
                 |__ http
                 
-               ... em edição
+             ... EM EDIÇÃO
                     
+ # Procedimento inicial
