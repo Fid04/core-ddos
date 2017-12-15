@@ -30,10 +30,10 @@
 
 # MÉTRICAS
 
-# Tempo médio até a falha (segundos)
+    → Tempo médio até a falha (segundos)
     Tempo necessário para ocasionar indisponibilidade do serviço
                    
-# Throughput (Mbps)              
+    → Throughput (Mbps)              
     Volume médio de tráfego processado em função do tempo de ataque
     
     
@@ -57,10 +57,11 @@
           |__ configs         # shell e python scripts utilizados no CORE emulador
           |__ R               # Rscripts e gráficos gerados com R  
           |__ topologia       # Conjunto de imagens utilizadas na topologia implementada 
-          |__ trace           # Contém um conjunto de pastas e arquivos utilizados para armazenar infomações de       
-                |                  monitoramento:.log, .dat, .csv, .xlsx, .txt, .pcap (1 máquina por técnica - demais pcap 
-                |                  são muito grandes)                     |                   
-                |__ imgs         # (png) Conjunto de arquivos de imagem gerados a partir dos .pcap e .xlsx 
+          |__ trace           # Contém um conjunto de pastas e arquivos utilizados para armazenar 
+                |               infomações de monitoramento:.log, .dat, .csv, .xlsx, .txt, .pcap 
+                |               (1 máquina por técnica - demais pcap são muito grandes)                    
+                |                
+                |__ imgs      # (png) Conjunto de arquivos de imagem gerados a partir dos .pcap e .xlsx 
                 |
                 |__ udp
                 |
