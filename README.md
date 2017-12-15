@@ -1,11 +1,10 @@
-
 # Colaboradores: 
     Professor Dr. Arthur Callado¹/ Alunos, Heli Amaral² e Iranildo Fidelis³
     ¹
     ² 
     ³ fidelis.lilia@gmail.com
 
-# core-ddos
+# core-ddos (em atualização)
     Projeto de disciplina, como parte dos requisitos para obtenção de nota na disciplina de Análise de 
     Desempenho de Redes de Computadores, do Curso Superior Tecnólogico de Redes de Computadores (UFC/ Quixadá). 
     Tem como finalidade, avaliar técnicas de DOS para ataque de negação de serviço distribuído (DDOS) usando 
