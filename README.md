@@ -16,7 +16,7 @@
     Comparar e determinar qual (is) das técnicas seguintes é mais eficiente para ataque de negação de 
     serviço distribuído:
 
-##### 			TCP SYN flood       |         UDP flood         |         HTTP flood
+     			TCP SYN flood       |         UDP flood         |         HTTP flood
 
 # TCP SYN flood 
     Envia muitos pacotes SYN para o servidor e ignorar os pacotes SYN + ACK retornados pelo servidor  
@@ -40,12 +40,12 @@
     → Tempo médio até a falha (segundos)
         Tempo necessário para ocasionar indisponibilidade do serviço
 
-![alt text](https://raw.githubusercontent.com/Fid04/core-ddos/master/R/mtf.png)
+![Mtf](https://raw.githubusercontent.com/Fid04/core-ddos/master/R/mtf.png)
                    
     → Throughput (Mbps)              
         Volume médio de tráfego processado em função do tempo de ataque
 
-![alt text](https://raw.githubusercontent.com/Fid04/core-ddos/master/R/vazao.png)
+![Throughput](https://raw.githubusercontent.com/Fid04/core-ddos/master/R/vazao.png)
         
     → Carga de trabalho (%)
         Utilização de recursos do servidor e do serviço Apache2 como memória, cpu, swap, disco, etc 
@@ -96,7 +96,7 @@
                     
 # Procedimento inicial 
 
-  	Após a instalação e execução do Common Open Research Emulator (CORE)* faça o import
+  	    Após a instalação e execução do Common Open Research Emulator (CORE)* faça o import
         do arquivo ddos.imn. Certifique se a topologia apresenta alguma inconsistência em relação a 
         imagem da topologia do projeto core-ddos (topologia-planejada).
 
