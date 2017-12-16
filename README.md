@@ -10,24 +10,30 @@
     Tem como finalidade, avaliar técnicas de DOS para ataque de negação de serviço distribuído (DDOS) usando 
     CORE emulador de redes. 
     
-![alt text](https://raw.githubusercontent.com/Fid04/core-ddos/master/topologia-planejada.png)
+![Topologia planejada](https://raw.githubusercontent.com/Fid04/core-ddos/master/topologia/topologia-planejada.png)
 
 # Objetivo
     Comparar e determinar qual (is) das técnicas seguintes é mais eficiente para ataque de negação de 
     serviço distribuído:
 
- 			TCP SYN flood       |         UDP flood         |         HTTP flood
+##### 			TCP SYN flood       |         UDP flood         |         HTTP flood
 
 # TCP SYN flood 
     Envia muitos pacotes SYN para o servidor e ignorar os pacotes SYN + ACK retornados pelo servidor  
+    
+![Tcp flood](https://raw.githubusercontent.com/Fid04/core-ddos/master/trace/synflood.png)
 
 # UDP flood   
     Servidor recebe tráfego, não consegue processar todas as solicitações, envia pacotes de "destino 
     inacessível" - ICMP, consumindo sua própria banda.  
+    
+![Udp flood](https://raw.githubusercontent.com/Fid04/core-ddos/master/trace/udpflood.png)
 
 # HTTP flood 
     Ataque que visa a camada de aplicação, consiste de um conjunto de solicitações HTTP GET ou POST 
     enviadas para um servidor alvo (pedidos são legítimos e numerosos)
+    
+![Http flood](https://raw.githubusercontent.com/Fid04/core-ddos/master/trace/httpflood.png)
 
 # Métricas
 
