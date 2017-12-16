@@ -77,10 +77,10 @@
                     
 # Procedimento inicial 
 
- 	Após a instalação e execução do Common Open Research Emulator (CORE)* 
-  faça o import do arquivo ddos.imn. Certifique se a topologia apresenta alguma 
-  inconsistência em relação a imagem da topologia do projeto core-ddos
-  (topologia-planejada).
+ 		Após a instalação e execução do Common Open Research Emulator (CORE)* 
+  	faça o import do arquivo ddos.imn. Certifique se a topologia apresenta alguma 
+	inconsistência em relação a imagem da topologia do projeto core-ddos
+	(topologia-planejada).
 
 
   *CORE → https://www.nrl.navy.mil/itd/ncs/products/core 
