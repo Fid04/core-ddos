@@ -1,10 +1,10 @@
 # Colaboradores: 
     Professor Dr. Arthur Callado¹/ Alunos, Heli Amaral² e Iranildo Fidelis³
-    ¹
-    ² 
-    ³ fidelis.lilia@gmail.com
+    	¹
+    	² 
+    	³ fidelis.lilia@gmail.com
 
-# core-ddos (em atualização)
+# core-ddos 
     Projeto de disciplina, como parte dos requisitos para obtenção de nota na disciplina de Análise de 
     Desempenho de Redes de Computadores, do Curso Superior Tecnólogico de Redes de Computadores (UFC/ Quixadá). 
     Tem como finalidade, avaliar técnicas de DOS para ataque de negação de serviço distribuído (DDOS) usando 
@@ -67,15 +67,23 @@
                 |                
                 |__ imgs      # (png) Conjunto de arquivos de imagem gerados a partir dos .pcap e .xlsx 
                 |
-                |__ udp
+                |__ udp       # arquivos de logs udp: contém medições sobre a técnica Udp flood
                 |
-                |__ tcp
+                |__ tcp       # arquivos de logs tcp: contém medições sobre a técnica Tcp flood
                 |
-                |__ http
+                |__ http      # arquivos de logs http: contém medições sobre a técnica Http flood
                 
              
                     
-# Procedimento inicial (EM EDIÇÃO)
+# Procedimento inicial 
+
+ 	Após a instalação e execução do Common Open Research Emulator (CORE)* 
+  faça o import do arquivo ddos.imn. Certifique se a topologia apresenta alguma 
+  inconsistência em relação a imagem da topologia do projeto core-ddos
+  (topologia-planejada).
+
+
+  *CORE → https://www.nrl.navy.mil/itd/ncs/products/core 
 
 # Configurando paths para scripts de serviços
 
