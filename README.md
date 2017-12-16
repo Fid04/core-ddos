@@ -45,10 +45,12 @@
         Utilização de recursos do servidor e do serviço Apache2 como memória, cpu, swap, disco, etc 
         em função do tempo de ataque 
                   
-<caption align="top">{{ Utilização de recursos do servidor (Ubuntu Server 17.10) }}</caption>
+<caption align="top">Utilização de recursos do servidor (Ubuntu Server 17.10)</caption>
+
 ![alt text](https://raw.githubusercontent.com/Fid04/core-ddos/master/trace/imgs/servidor.png)
                       
-<caption align="top">{{ Utilização de recursos do serviço (Web Apache2) }}</caption>
+<caption align="top">Utilização de recursos do serviço (Web Apache2)</caption>
+
 ![alt text](https://raw.githubusercontent.com/Fid04/core-ddos/master/trace/imgs/apache.png)
 
    
