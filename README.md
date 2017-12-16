@@ -33,13 +33,26 @@
 
     → Tempo médio até a falha (segundos)
         Tempo necessário para ocasionar indisponibilidade do serviço
+
+![alt text](https://raw.githubusercontent.com/Fid04/core-ddos/master/R/mtf.png)
                    
     → Throughput (Mbps)              
         Volume médio de tráfego processado em função do tempo de ataque
+
+![alt text](https://raw.githubusercontent.com/Fid04/core-ddos/master/R/vazao.png)
         
     → Carga de trabalho (%)
         Utilização de recursos do servidor e do serviço Apache2 como memória, cpu, swap, disco, etc 
         em função do tempo de ataque 
+
+	# Utilização de recursos do servidor (Ubuntu Server 17.10)
+
+![alt text](https://raw.githubusercontent.com/Fid04/core-ddos/master/trace/imgs/servidor.png)
+
+	# Utilização de recursos do serviço (Web Apache2)
+
+![alt text](https://raw.githubusercontent.com/Fid04/core-ddos/master/trace/imgs/apache.png)
+
    
 # Fatores e níveis
 
@@ -77,13 +90,12 @@
                     
 # Procedimento inicial 
 
- 		Após a instalação e execução do Common Open Research Emulator (CORE)* 
-  	faça o import do arquivo ddos.imn. Certifique se a topologia apresenta alguma 
-	inconsistência em relação a imagem da topologia do projeto core-ddos
-	(topologia-planejada).
+  	Após a instalação e execução do Common Open Research Emulator (CORE)* faça o import
+        do arquivo ddos.imn. Certifique se a topologia apresenta alguma inconsistência em relação a 
+        imagem da topologia do projeto core-ddos (topologia-planejada).
 
 
-  *CORE → https://www.nrl.navy.mil/itd/ncs/products/core 
+  	*CORE → https://www.nrl.navy.mil/itd/ncs/products/core 
 
 # Configurando paths para scripts de serviços
 
